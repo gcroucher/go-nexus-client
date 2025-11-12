@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/datadrivers/go-nexus-client/nexus3"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/security/privilege"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/tools"
-	"github.com/datadrivers/go-nexus-client/nexus3/schema"
-	schemasecurity "github.com/datadrivers/go-nexus-client/nexus3/schema/security"
+	"github.com/gcroucher/go-nexus-client/nexus3"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/client"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/security/privilege"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/tools"
+	"github.com/gcroucher/go-nexus-client/nexus3/schema"
+	schemasecurity "github.com/gcroucher/go-nexus-client/nexus3/schema/security"
 	"github.com/stretchr/testify/assert"
 )
 

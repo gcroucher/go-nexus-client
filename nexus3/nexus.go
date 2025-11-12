@@ -1,12 +1,13 @@
 package nexus3
 
 import (
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/blobstore"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/cleanup"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/readonly"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/repository"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/security"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/blobstore"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/capability"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/cleanup"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/client"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/readonly"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/repository"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/security"
 )
 
 const (
@@ -22,6 +23,7 @@ type NexusClient struct {
 
 	// API Services
 	BlobStore     *blobstore.BlobStoreService
+	Capability    *capability.CapabilityService
 	Repository    *repository.RepositoryService
 	RoutingRule   *RoutingRuleService
 	CleanupPolicy *cleanup.CleanupPolicyService
@@ -37,6 +39,7 @@ func NewClient(config client.Config) *NexusClient {
 	return &NexusClient{
 		client:        client,
 		BlobStore:     blobstore.NewBlobStoreService(client),
+		Capability:    capability.NewCapabilityService(client),
 		Repository:    repository.NewRepositoryService(client),
 		RoutingRule:   NewRoutingRuleService(client),
 		CleanupPolicy: cleanup.NewCleanupPolicyService(client),

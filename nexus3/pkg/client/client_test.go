@@ -3,7 +3,7 @@ package client
 import (
 	"testing"
 
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/tools"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/tools"
 	"github.com/stretchr/testify/assert"
 )
 

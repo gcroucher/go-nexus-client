@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/datadrivers/go-nexus-client/nexus3/schema/security"
+	"github.com/gcroucher/go-nexus-client/nexus3/schema/security"
 	"github.com/stretchr/testify/assert"
 )
 

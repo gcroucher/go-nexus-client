@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
-	"github.com/datadrivers/go-nexus-client/nexus3/schema/security"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/client"
+	"github.com/gcroucher/go-nexus-client/nexus3/schema/security"
 	"github.com/google/go-querystring/query"
 )
 

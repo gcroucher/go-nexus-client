@@ -1,9 +1,9 @@
 package raw
 
 import (
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/repository/common"
-	"github.com/datadrivers/go-nexus-client/nexus3/schema/repository"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/client"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/repository/common"
+	"github.com/gcroucher/go-nexus-client/nexus3/schema/repository"
 )
 
 const (

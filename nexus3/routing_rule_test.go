@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/datadrivers/go-nexus-client/nexus3/schema"
+	"github.com/gcroucher/go-nexus-client/nexus3/schema"
 	"github.com/stretchr/testify/assert"
 )
 

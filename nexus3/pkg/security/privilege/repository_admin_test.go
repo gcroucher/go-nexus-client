@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/security/privilege"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/tools"
-	schemasecurity "github.com/datadrivers/go-nexus-client/nexus3/schema/security"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/security/privilege"
+	"github.com/gcroucher/go-nexus-client/nexus3/pkg/tools"
+	schemasecurity "github.com/gcroucher/go-nexus-client/nexus3/schema/security"
 	"github.com/stretchr/testify/assert"
 )
 
