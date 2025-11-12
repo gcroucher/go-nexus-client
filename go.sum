@@ -1,5 +1,7 @@
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/gcroucher/go-nexus-client v0.0.0-20251009081153-337e598b9bc0 h1:Y31sTQAgmWvuX6ALDQarSDwHxVr0P2rL+ynW0uiUqvo=
+github.com/gcroucher/go-nexus-client v0.0.0-20251009081153-337e598b9bc0/go.mod h1:EZyti0q9M2yz+dmtDMNvr+986eK5cTc8mTzn87qxRas=
 github.com/google/go-cmp v0.5.2 h1:X2ev0eStA3AbceY54o37/0PQ/UWqKEiiO2dKL5OPaFM=
 github.com/google/go-cmp v0.5.2/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-querystring v1.1.0 h1:AnCroh3fv4ZBgVIf1Iwtovgjaw/GiKJo8M8yD/fhyJ8=
