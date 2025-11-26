@@ -204,7 +204,9 @@ func TestIQServerEnableDisable(t *testing.T) {
 	// with a valid, reachable IQ Server.
 
 	// Restore original state
+	// Note: We need to provide the password again because GET doesn't return it
 	originalConfig.Enabled = originalEnabled
+	originalConfig.Password = &password
 	err = service.Update(*originalConfig)
 	assert.Nil(t, err)
 }
