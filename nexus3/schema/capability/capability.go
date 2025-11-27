@@ -23,7 +23,9 @@ type CapabilityCreate struct {
 }
 
 // CapabilityUpdate is the PUT body for updating a capability.
+// Note: ID must be included in the body for the update to work
 type CapabilityUpdate struct {
+	ID         string            `json:"id"`              // Required for update
 	Type       string            `json:"type"`
 	Notes      string            `json:"notes,omitempty"`
 	Enabled    bool              `json:"enabled"`
